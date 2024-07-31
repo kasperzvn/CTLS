@@ -9,14 +9,29 @@ module.exports = {
       fontFamily: {
         
         //MAIN
-        payton: ["Paytone One", ...defaultTheme.fontFamily.sans],
-        yatra: ["Yatra One", ...defaultTheme.fontFamily.sans],
         gochi: ["Gochi Hand", ...defaultTheme.fontFamily.sans],
-        jaro: ["Jaro", ...defaultTheme.fontFamily.sans],
+        gara: ["EB Garamond", ...defaultTheme.fontFamily.sans],
 
 
       }
     },
+    fontSize: {
+      'sm': ['14px', {
+        lineHeight: '21px',
+      }],
+      'base': ['16px', {
+        lineHeight: '21px',
+        fontWeight: '450',
+      }],
+      '5xl': ['48px', {
+        lineHeight: '38px',
+        fontWeight: '800',
+        }],
+      '6xl': ['60px', {
+        lineHeight: '52px',
+        fontWeight: '800',
+        }],
+    }
   },
   plugins: [],
 }
